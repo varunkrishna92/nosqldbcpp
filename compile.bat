@@ -1,0 +1,1 @@
+devenv KeyValue.sln /rebuild debug

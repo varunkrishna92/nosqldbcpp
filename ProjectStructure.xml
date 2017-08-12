@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NoSqlDb>
+<Project Key="Convert">
+	<Name>Convert</Name>
+	<Files>convert.h,convert.cpp</Files>
+	<Dependencnies></Dependencnies>
+</Project>
+<Project Key="CppProperties">
+	<Name>CppProperties</Name>
+	<Files>CppProperties.h,CppProperties.cpp</Files>
+	<Dependencnies></Dependencnies>
+</Project>
+<Project Key="NoSqlDb">
+	<Name>NoSqlDb</Name>
+	<Files>NoSqlDb.h,NoSqlDb.cpp</Files>
+	<Dependencnies>Convert,CppProperties,XmlDocument</Dependencnies>
+</Project>
+<Project Key="PersistHelp">
+	<Name>PersistHelp</Name>
+	<Files>PersistHelp.h,PersistHelp.cpp</Files>
+	<Dependencnies>XmlDocument</Dependencnies>
+</Project>
+<Project Key="Utilities">
+	<Name>Utilities</Name>
+	<Files>Utilities.h,StrHelper.h,Utilities.cpp,StrHelper.cpp</Files>
+	<Dependencnies></Dependencnies>
+</Project>
+<Project Key="XmlDocument">
+	<Name>XmlDocument</Name>
+	<Files>itokocollection.h,Tokenizer.h,XmlDocument.h,XmlElement.h,xmlElementParts.h,XmlParser.h,itokocollection.cpp,Tokenizer.cpp,XmlDocument.cpp,XmlElement.cpp,xmlElementParts.cpp,XmlParser.cpp</Files>
+	<Dependencnies></Dependencnies>
+</Project>
+</NoSqlDb>>
